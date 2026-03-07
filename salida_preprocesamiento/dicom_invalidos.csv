@@ -1,0 +1,1 @@
+patientId,path,read_ok,error,Rows,Columns,Modality,PatientID,PhotometricInterpretation,pixel_ok,shape,dtype,min_val,max_val

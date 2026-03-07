@@ -1,0 +1,10 @@
+# Ignorar datasets grandes
+rsna-pneumonia-detection-challenge/stage_2_train_images/
+rsna-pneonia-detection-challenge/stage_2_test_images/
+
+# outputs del script
+salida_preprocesamiento/
+
+# python
+__pycache__/
+*.pyc
