@@ -1,0 +1,4 @@
+class,frecuencia,proporcion
+No Lung Opacity / Not Normal,11821,0.443
+Normal,8851,0.3317
+Lung Opacity,6012,0.2253

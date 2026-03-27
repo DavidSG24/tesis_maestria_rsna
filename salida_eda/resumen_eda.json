@@ -1,0 +1,131 @@
+{
+    "total_pacientes": 26684,
+    "casos_positivos": 6012,
+    "casos_negativos": 20672,
+    "distribucion_por_split": [
+        {
+            "split": "train",
+            "frecuencia": 18678,
+            "proporcion": 0.7
+        },
+        {
+            "split": "val",
+            "frecuencia": 4003,
+            "proporcion": 0.15
+        },
+        {
+            "split": "test",
+            "frecuencia": 4003,
+            "proporcion": 0.15
+        }
+    ],
+    "distribucion_por_clase": [
+        {
+            "class": "No Lung Opacity / Not Normal",
+            "frecuencia": 11821,
+            "proporcion": 0.443
+        },
+        {
+            "class": "Normal",
+            "frecuencia": 8851,
+            "proporcion": 0.3317
+        },
+        {
+            "class": "Lung Opacity",
+            "frecuencia": 6012,
+            "proporcion": 0.2253
+        }
+    ],
+    "resumen_numerico": [
+        {
+            "variable": "Target",
+            "mean": 0.2253,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "std_dev": 0.4178
+        },
+        {
+            "variable": "target_binaria",
+            "mean": 0.2253,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "std_dev": 0.4178
+        },
+        {
+            "variable": "bbox_count",
+            "mean": 0.3581,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 4.0,
+            "std_dev": 0.7122
+        },
+        {
+            "variable": "bbox_area_total",
+            "mean": 27759.5768,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 632892.0,
+            "std_dev": 69708.9127
+        },
+        {
+            "variable": "bbox_area_mean",
+            "mean": 16522.0602,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 371184.0,
+            "std_dev": 38411.0559
+        },
+        {
+            "variable": "bbox_width_mean",
+            "mean": 48.7074,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 528.0,
+            "std_dev": 94.2192
+        },
+        {
+            "variable": "bbox_height_mean",
+            "mean": 70.7588,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 904.5,
+            "std_dev": 149.1899
+        },
+        {
+            "variable": "bbox_center_x_mean",
+            "mean": 111.7542,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 880.0,
+            "std_dev": 217.9616
+        },
+        {
+            "variable": "bbox_center_y_mean",
+            "mean": 120.2822,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 945.0,
+            "std_dev": 228.9919
+        }
+    ],
+    "resumen_por_objetivo": [
+        {
+            "target_texto": "Negativo",
+            "pacientes": 20672,
+            "bbox_count_promedio": 0.0,
+            "bbox_area_total_promedio": 0.0,
+            "bbox_area_total_mediana": 0.0,
+            "proporcion": 0.7747
+        },
+        {
+            "target_texto": "Positivo",
+            "pacientes": 6012,
+            "bbox_count_promedio": 1.5893,
+            "bbox_area_total_promedio": 123209.6717,
+            "bbox_area_total_mediana": 91651.5,
+            "proporcion": 0.2253
+        }
+    ]
+}
