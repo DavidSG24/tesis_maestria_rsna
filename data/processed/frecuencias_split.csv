@@ -1,0 +1,4 @@
+split,frecuencia,proporcion
+train,18678,0.7
+val,4003,0.15
+test,4003,0.15

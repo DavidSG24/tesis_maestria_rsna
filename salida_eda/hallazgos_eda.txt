@@ -1,8 +1,0 @@
-Resumen automatico del EDA para apoyar la redaccion del reporte tecnico.
-La base final contiene 26684 pacientes validos. De ellos, 6012 (22.53%) son positivos y 20672 (77.47%) son negativos.
-La clase clinica con mayor presencia es 'No Lung Opacity / Not Normal' con 44.30% del total. Esto evidencia desbalance entre categorias y justifica reportar proporciones ademas de frecuencias absolutas.
-La particion train/val/test se mantiene cercana a la distribucion esperada: train=70.00%, val=15.00%, test=15.00%.
-En los casos positivos, el numero promedio de bounding boxes por paciente es 1.59 y el area total promedio anotada es 123209.67.
-Los graficos recomendados para el informe son: distribucion de clases, histograma del area total de bounding boxes, conteo por split y clase binaria, y mapa de calor de correlaciones.
-El resumen del preprocesamiento coincide con el EDA: 26684 pacientes limpios y 6012 positivos finales.
-Para la variable bbox_area_total, la media es 27759.58, la mediana 0.00, el minimo 0.00, el maximo 632892.00 y la desviacion estandar 69708.91.

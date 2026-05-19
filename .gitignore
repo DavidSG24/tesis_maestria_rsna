@@ -1,2 +1,54 @@
-stage_2_train_images/
-stage_2_test_images/
+# =====================================================
+# Datos crudos pesados (DICOMs no se versionan)
+# =====================================================
+data/raw/stage_2_train_images/
+data/raw/stage_2_test_images/
+
+# Si quieres ignorar TODOS los datos crudos, descomenta:
+# data/raw/
+
+# Artefactos intermedios y procesados (descomenta si no se versionan)
+# data/interim/
+# data/processed/
+
+# =====================================================
+# Modelos entrenados (pesados)
+# =====================================================
+models/*.pt
+models/*.pth
+models/*.ckpt
+models/*.h5
+
+# =====================================================
+# Reportes generados (descomenta si no se versionan)
+# =====================================================
+# reports/figures/
+# reports/tables/
+# reports/predictions/
+
+# =====================================================
+# Python
+# =====================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# =====================================================
+# Entornos y secretos
+# =====================================================
+.env
+.env.*
+
+# =====================================================
+# Editores / sistema
+# =====================================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

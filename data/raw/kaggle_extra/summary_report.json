@@ -1,0 +1,77 @@
+{
+  "descripcion_base": {
+    "n_filas_labels": 30227,
+    "n_columnas_labels": 6,
+    "n_imagenes_unicas": 26684,
+    "n_archivos_dicom_train": 26684,
+    "columnas_labels": [
+      "patientId",
+      "x",
+      "y",
+      "width",
+      "height",
+      "Target"
+    ],
+    "columnas_class_info": [
+      "patientId",
+      "class"
+    ]
+  },
+  "calidad_datos": {
+    "total_valores_faltantes_labels": 82688,
+    "faltantes_por_columna": {
+      "patientId": 0,
+      "x": 20672,
+      "y": 20672,
+      "width": 20672,
+      "height": 20672,
+      "Target": 0
+    },
+    "filas_duplicadas_exactas": 0
+  },
+  "clases": {
+    "conteo_por_clase_imagen": {
+      "0": 20672,
+      "1": 6012
+    },
+    "porcentaje_por_clase_imagen": {
+      "0": 77.47,
+      "1": 22.53
+    }
+  },
+  "bounding_boxes": {
+    "positivos_sin_bbox_completo": 0,
+    "negativos_con_bbox": 0,
+    "bbox_invalidos": 0,
+    "estadisticas_bbox": {
+      "width_mean": 218.47,
+      "height_mean": 329.27,
+      "area_mean": 77523.45,
+      "width_median": 217.0,
+      "height_median": 298.0,
+      "area_median": 64829.0
+    }
+  },
+  "dicom_muestra": {
+    "sample_size_dicoms": 200,
+    "rows_mean": 1024.0,
+    "columns_mean": 1024.0,
+    "rows_median": 1024.0,
+    "columns_median": 1024.0,
+    "has_pixel_data_count": 200,
+    "view_position_counts": {
+      "PA": 120,
+      "AP": 80
+    },
+    "modality_counts": {
+      "CR": 200
+    }
+  },
+  "preprocesamiento_sugerido": [
+    "Consolidar la etiqueta por imagen usando el valor máximo de Target por patientId.",
+    "Revisar valores faltantes en las columnas x, y, width y height.",
+    "Verificar si existen filas duplicadas exactas en labels.",
+    "Corregir o excluir bounding boxes inválidos.",
+    "Estandarizar imágenes antes del modelado."
+  ]
+}

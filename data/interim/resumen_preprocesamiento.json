@@ -1,0 +1,74 @@
+{
+    "descripcion_base": {
+        "imagenes_train_originales": 26684,
+        "imagenes_test_originales": 3000,
+        "registros_labels_originales": 30227,
+        "registros_class_info_originales": 30227,
+        "numero_variables_labels": 6,
+        "numero_variables_class_info": 2,
+        "tipos_datos_labels": {
+            "patientId": "object",
+            "x": "float64",
+            "y": "float64",
+            "width": "float64",
+            "height": "float64",
+            "Target": "int64"
+        },
+        "tipos_datos_class_info": {
+            "patientId": "object",
+            "class": "object"
+        }
+    },
+    "calidad_inicial": {
+        "faltantes_totales_labels": 82688,
+        "faltantes_totales_class_info": 0,
+        "filas_duplicadas_labels": 0,
+        "filas_duplicadas_class_info": 3543,
+        "imagenes_train_duplicadas_por_id": 0,
+        "dicom_invalidos_o_corruptos": 0,
+        "imagenes_sin_label": 0,
+        "labels_sin_imagen": 0,
+        "classinfo_sin_imagen": 0
+    },
+    "transformaciones_realizadas": {
+        "verificacion_integridad_dicom": true,
+        "integracion_tablas": true,
+        "creacion_variable_binaria": true,
+        "validacion_bounding_boxes": true,
+        "normalizacion_reportada": true,
+        "redimension_objetivo": [
+            224,
+            224
+        ],
+        "particion_train_val_test": true,
+        "estratificacion_por_clase": true
+    },
+    "resultados_procesamiento": {
+        "imagenes_validas_dicom": 26684,
+        "imagenes_invalidas_dicom": 0,
+        "registros_integrados_raw": 37629,
+        "pacientes_unicos_integrados": 26684,
+        "pacientes_limpios_finales": 26684,
+        "positivos_finales": 6012,
+        "negativos_finales": 20672,
+        "anotaciones_bbox_invalidas": 0,
+        "positivos_con_bbox_valida": 6012,
+        "train_final": 18678,
+        "val_final": 4003,
+        "test_final": 4003
+    },
+    "distribucion_clases": {
+        "train": {
+            "0": 14470,
+            "1": 4208
+        },
+        "val": {
+            "0": 3101,
+            "1": 902
+        },
+        "test": {
+            "0": 3101,
+            "1": 902
+        }
+    }
+}
